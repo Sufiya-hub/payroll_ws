@@ -1,5 +1,7 @@
-import { WebSocketServer } from 'ws';
-import { createServer } from 'http';
+// import { WebSocketServer } from 'ws';
+// import { createServer } from 'http';
+const { createServer } = require('http');
+const { WebSocketServer } = require('ws');
 
 const PORT = process.env.PORT || 3001;
 
